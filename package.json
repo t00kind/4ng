@@ -2,5 +2,24 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-  "type": "module"
+  "type": "module",
+  "name": "4ng",
+  "version": "1.0.0",
+  "description": "time to chng",
+  "main": "base.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node base.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t00kind/4ng.git"
+  },
+  "author": "t00kind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t00kind/4ng/issues"
+  },
+  "homepage": "https://github.com/t00kind/4ng#readme"
 }

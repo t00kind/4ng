@@ -1,18 +1,24 @@
 import express from 'express'
 import path from 'path'
-import {dirname} from 'path'
+
 import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
-
-
-const app = express()
 const __dirname = dirname(__filename);
+    
+let app = express();
 
-app.get('/', async(req, res) => {
-	res.sendFile(__dirname +'/index.html');
+app.get('',function(req,res){
+   res.sendFile(path.join(__dirname + '/index.html')); 
 });
 
+app.get('/js/main.js',function(req,res){
+    res.sendFile(path.join(__dirname + '/js/main.js')); 
+});
+
+
+
 app.listen(80, function() {
-	console.log('running');
+	console.log('TIME TO CHNG');
 });
