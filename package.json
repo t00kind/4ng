@@ -1,22 +1,18 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "type": "module",
   "name": "4ng",
-  "version": "1.0.0",
-  "description": "time to chng",
+  "version": "0.0.1",
+  "description": "chng now",
   "main": "base.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node base.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/t00kind/4ng.git"
   },
-  "author": "t00kind",
+  "author": "TNBL",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/t00kind/4ng/issues"
